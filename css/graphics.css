@@ -1,0 +1,282 @@
+* { margin: 0; padding: 0;}
+body {
+    background-color: black;
+    font-family: 'VT323', monospace;
+}
+
+
+
+/* NAV*/
+
+
+  nav {
+        background-color: black;
+        height: 64px;
+        width: 100%;
+        color: rgb(25, 206, 25);
+        margin-top: 0;
+        position: fixed;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        align-self: center;
+        top: 0px;
+        border: rgb(25, 206, 25) solid 2px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+
+    nav ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+        color: hotpink;
+    }
+    a {
+        text-decoration: none;
+    }
+    a.nav {
+        color: hotpink;
+    }
+
+    a.nav:hover {
+        color: rgb(112, 17, 180);
+    }
+
+    /*CONTENT*/
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top:70px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        width: 100%;
+        justify-content: center;
+    }
+    .title h2 {
+        color: hotpink;
+        font-size: 50px;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .upleft {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .poster {
+        width: 70%;
+        padding-top: 2.5vh;
+        padding-bottom: 2.5vh;
+    }
+    .poster img {
+        width: 100%;
+        height: auto;
+    }
+
+    .upright {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .car {
+        width: 80%;
+        padding-top:2.5vh;
+        padding-bottom: 6vh;
+    }
+    .car img {
+        width: 100%;
+        height: auto;
+    }
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.one {
+    padding: 2.5vh 5vh 10vh 5vh;
+    width: 40%;
+}
+    .one img {
+        width: 100%;
+        height: auto;
+    }
+
+    .downleft {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .dl {
+        width: 50%;
+        padding-top:2.5vh;
+        padding-bottom: 10vh;
+    }
+    .dl img {
+        width: 100%;
+        height: auto;
+    }
+
+    .dlauto {
+        width: 70%;
+        padding-top:2.5vh;
+        padding-bottom: 10vh;
+    }
+    .dlauto img {
+        width: 100%;
+        height: auto;
+    }
+
+    .downright {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dr {
+        width: 70%;
+        padding-top:2.5vh;
+        padding-bottom: 10vh;
+    }
+    .dr img {
+        width: 100%;
+        height: auto;
+    }
+
+    .drlogo {
+        width: 50%;
+        padding-top:2.5vh;
+        padding-bottom:10vh ;
+    }
+    .drlogo img {
+        width: 100%;
+        height: auto;
+    }
+    .bot {
+        margin-bottom: 5vh;
+    }
+
+    .button {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .back {
+        font-family: 'VT323', monospace;
+        background-color:rgb(112, 17, 180);
+        color: hotpink;
+        border: 3px  hotpink solid;
+        border-radius: 7px;
+        display: inline-block;
+        margin-top: 40px;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 8px 30px 8px 30px;
+        cursor: pointer;
+        margin-bottom: 6vh;
+        
+    }
+    .back:hover {
+        font-family: 'VT323', monospace;
+        background-color:rgb(112, 17, 180);
+        color: hotpink;
+        border: 3px rgb(112, 17, 180) solid;
+        border-radius: 7px;
+        display: inline-block;
+        margin-top: 40px;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 8px 30px 8px 30px;
+        cursor: pointer;
+    }
+    .back:active {
+        font-family: 'VT323', monospace;
+        background-color: hotpink;
+        color: rgb(112, 17, 180);
+        border: 3px hotpink solid;
+        border-radius: 7px;
+        display: inline-block;
+        margin-top: 40px;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 8px 30px 8px 30px;
+        cursor: pointer;
+    }
+    
+    /*FOOTER*/
+
+
+footer {
+    bottom:0;
+    width: 100%;
+    position: ;
+
+}
+    footer div {
+        background-color: black;
+        color: rgb(25, 206, 25);
+        height: 64px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        align-self: center;
+        border: rgb(25, 206, 25) solid 2px;
+    }
+    
+    footer div h4 {
+        margin-left: 20px;
+        color: hotpink;
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        .upleft {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .upright {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .downleft {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .downright {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+    }

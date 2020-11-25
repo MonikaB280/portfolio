@@ -1,0 +1,107 @@
+* { margin: 0; padding: 0;}
+
+
+  nav {
+        background-color: white;
+        height: 54px;
+        width: 100%;
+        color: #555;
+        margin-top: 0;
+        position: fixed;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        align-self: center;
+        top: 0px;
+        border: black solid 2px;
+        font-family: 'VT323', monospace;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+
+    nav ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+    a.nav {
+        color: black;
+    }
+
+    a.nav:hover {
+        color: hotpink;
+    }
+
+    body {
+        background-color: aliceblue;
+        margin-top: 84px;
+        font-family: 'VT323', monospace;
+    }
+span {
+    color: hotpink;
+}
+
+    .box {
+        position: absolute;
+        border: black solid 2px;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        margin-left: 5vh;
+        top: 15vh;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .nintendo {
+    height: 80vh;
+    width: auto;
+    /*margin: 10vh 0 2.5vh 0;*/
+    }
+    #select {
+        cursor: pointer;
+    }
+ 
+    svg {
+        width: 100%;
+        height: inherit;
+    }
+
+    footer {
+        margin-top: 30px;
+        bottom:0;
+        width: 100%;
+
+    }
+
+    footer div {
+        background-color: white;
+        height: 54px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        align-self: center;
+        border: black solid 2px;
+    }
+    
+    footer div h4 {
+        font-family: 'VT323', monospace;
+        margin-left: 20px;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .box {
+            justify-self: center;
+            align-self: center;
+            position: static;
+            margin-left: 28vh;
+            margin-bottom: 5vh;
+            width: 25vh;
+        }
+    }

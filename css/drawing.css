@@ -1,0 +1,207 @@
+* { margin: 0; padding: 0;}
+body {
+    background-color: black;
+    font-family: 'VT323', monospace;
+}
+
+
+
+/* NAV*/
+
+
+  nav {
+        background-color: black;
+        height: 64px;
+        width: 100%;
+        color: rgb(25, 206, 25);
+        margin-top: 0;
+        position: fixed;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        align-self: center;
+        top: 0px;
+        border: rgb(25, 206, 25) solid 2px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+
+    nav ul li {
+        margin-left: 10px;
+        margin-right: 10px;
+        color: hotpink;
+    }
+    a {
+        text-decoration: none;
+    }
+    a.nav {
+        color: hotpink;
+    }
+
+    a.nav:hover {
+        color: rgb(112, 17, 180);
+    }
+
+    /*CONTENT*/
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        margin-top:70px;
+        justify-content: center;
+        align-items: center;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+    }
+    .tog {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 50%;
+    }
+.row img {
+    width: 70%;
+    height: 90%;
+}
+
+.alone {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.alone img {
+    width: 70%;
+    height: 70%;
+}
+    .title {
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 3vh;
+    }
+    .title h2 {
+        color: hotpink;
+        font-size: 50px;
+        text-align: center;
+        margin: 20px;
+    }
+
+
+    .button {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .back {
+        font-family: 'VT323', monospace;
+        background-color:rgb(112, 17, 180);
+        color: hotpink;
+        border: 3px  hotpink solid;
+        border-radius: 7px;
+        display: inline-block;
+        margin-top: 40px;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 8px 30px 8px 30px;
+        cursor: pointer;
+        margin-bottom: 6vh;
+        
+    }
+    .back:hover {
+        font-family: 'VT323', monospace;
+        background-color:rgb(112, 17, 180);
+        color: hotpink;
+        border: 3px rgb(112, 17, 180) solid;
+        border-radius: 7px;
+        display: inline-block;
+        margin-top: 40px;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 8px 30px 8px 30px;
+        cursor: pointer;
+    }
+    .back:active {
+        font-family: 'VT323', monospace;
+        background-color: hotpink;
+        color: rgb(112, 17, 180);
+        border: 3px hotpink solid;
+        border-radius: 7px;
+        display: inline-block;
+        margin-top: 40px;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 8px 30px 8px 30px;
+        cursor: pointer;
+    }
+    /*FOOTER*/
+
+
+footer {
+    bottom:0;
+    width: 100%;
+
+}
+    footer div {
+        background-color: black;
+        color: rgb(25, 206, 25);
+        height: 64px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        align-self: center;
+        border: rgb(25, 206, 25) solid 2px;
+    }
+    
+    footer div h4 {
+        margin-left: 20px;
+        color: hotpink;
+    }
+
+
+    @media only screen and (max-width: 768px) {
+        .row {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+        }
+        .tog {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            width: 100%;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+        }
+    .row img {
+        width: 60%;
+        height: 80%;
+    }
+    
+    .alone {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+    }
+    
+    .alone img {
+        width: 70%;
+        height: 70%;
+    }
+    }
